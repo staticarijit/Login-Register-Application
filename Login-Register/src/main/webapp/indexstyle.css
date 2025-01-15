@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #AEFD6C;
+	background-image: url('login.jpg');
+    background-size: cover; /* or 'contain' based on your preference */
+    background-position: center center;
+    background-repeat: no-repeat;
+            
+}
+.container {
+	width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 1, 0.5);
+    text-align: center; /* Center the content */
+}
+
+.links a{
+	margin: 0 10px;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+.links a:hover{
+	color: #0056b3;
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
+
+
+
